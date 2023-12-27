@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    color:skyblue;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color:black;
+}
+select,
+.input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* activitycss.css */
+
+.outer {
+    position: relative;
+    background: url('curr_exchange.jpeg') center center/cover no-repeat;
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+.inner {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1); 
+    border-radius: 8px;
+    text-align: center;
+}
+
+#result {
+    width: 100%;
+    padding: 8px;
+    margin-top: 16px;
+    box-sizing: border-box;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+.image 
+{
+    width: 1000px;
+    height: 700px;
+}
+body 
+{
+    background-color: black;
+}
